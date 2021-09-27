@@ -120,17 +120,7 @@ class _VideoViewState extends State<VideoView> {
           : widget.data.spells[selectedImage - 1]["name"].toString(),
       style: TextStyle(
         fontSize: screenSize.screenWidth(context, x: 5),
-        color: selectedImage == 0
-            ? mainColor
-            : selectedImage == 1
-                ? Colors.purple[400]
-                : selectedImage == 2
-                    ? Colors.red
-                    : selectedImage == 3
-                        ? Colors.orange
-                        : selectedImage == 4
-                            ? Colors.indigo
-                            : Colors.transparent,
+        color: colorList[selectedImage],
       ),
     );
   }
