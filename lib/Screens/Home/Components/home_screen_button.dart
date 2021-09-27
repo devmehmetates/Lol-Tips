@@ -25,7 +25,7 @@ class HomeScreenButton extends StatelessWidget {
         children: [
           SizedBox(
             width: screenSize.screenWidth(context),
-            height: screenSize.screenHeight(context, x: 47),
+            height: screenSize.screenHeight(context, x: 43),
             child: ClipRRect(
               borderRadius: const BorderRadius.only(
                 topRight: Radius.circular(50),
@@ -39,7 +39,7 @@ class HomeScreenButton extends StatelessWidget {
           ),
           Container(
             width: screenSize.screenWidth(context),
-            height: screenSize.screenHeight(context, x: 47),
+            height: screenSize.screenHeight(context, x: 43),
             color: Colors.black.withOpacity(0.7),
           ),
           Positioned.fill(

@@ -36,7 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   http: 
   carousel_slider: ^4.0.0
-  video_player:
+  video_player: ^2.2.5
   url_launcher: ^6.0.9
 
 dev_dependencies:
