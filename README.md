@@ -1,12 +1,12 @@
 # Lol Tips For New Players
 
 <p>
- This app targets to Modeling. App works with <code>json</code> datas. All datas is dynamics network datas.
+ This app targets Modeling. The app works with <code>JSON</code> data. All data is dynamics network data.
 </p>
 
 # What is goal this app?
 <p>
- This app is helps to new players. Provides learn champions skills, info for lol universe and play better using videos,images and datas. 
+ This app helps new players. Provides learn champions skills, info for lol universe and play better using videos, images, and data.
 </p>
 
 ## How it work
