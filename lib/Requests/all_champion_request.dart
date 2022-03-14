@@ -4,8 +4,7 @@ import 'package:http/http.dart' as http;
 
 Future<Heros> getHeros() async {
   final response = await http.get(
-    Uri.parse(
-        "http://ddragon.leagueoflegends.com/cdn/11.19.1/data/tr_TR/champion.json"),
+    Uri.parse("http://ddragon.leagueoflegends.com/cdn/12.5.1/data/tr_TR/champion.json"),
   );
 
   if (response.statusCode == 200) {

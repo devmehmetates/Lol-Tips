@@ -3,11 +3,9 @@ import 'package:http/http.dart' as http;
 import 'package:loltips/Models/champion_detail.dart';
 
 Future<ChampionDetail> getChampionDetail(String name) async {
-  final response = await http.get(Uri.parse(
-      "http://ddragon.leagueoflegends.com/cdn/11.19.1/data/tr_TR/champion/$name.json"));
+  final response = await http.get(Uri.parse("http://ddragon.leagueoflegends.com/cdn/12.5.1/data/tr_TR/champion/$name.json"));
   if (response.statusCode == 200) {
-    return ChampionDetail.fromJson(
-        jsonDecode(utf8.decode(response.bodyBytes)), name);
+    return ChampionDetail.fromJson(jsonDecode(utf8.decode(response.bodyBytes)), name);
   } else {
     throw Exception('Failed to load album');
   }
@@ -20,8 +18,7 @@ class ChampionDetail {
     required this.champion,
   });
 
-  factory ChampionDetail.fromJson(
-      Map<String, dynamic> json, String championKey) {
+  factory ChampionDetail.fromJson(Map<String, dynamic> json, String championKey) {
     return ChampionDetail(
       champion: Champion(
         version: json["version"],
