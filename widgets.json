@@ -1,3 +1,36 @@
 {
-    
+  "contents": [
+    {
+      "widgetType": 0,
+      "content": {
+        "title": "Content Title",
+        "image": "https://picsum.photos/1000"
+      }
+    },
+    {
+      "widgetType": 1,
+      "content": {
+        "title": "Content Title",
+        "image": "https://picsum.photos/1000",
+        "lore": "Content Message"
+      }
+    },
+    {
+      "widgetType": 2,
+      "content": [
+        {
+          "title": "Quick Title",
+          "image": "https://picsum.photos/1000"
+        },
+        {
+          "title": "Quick Title2",
+          "image": "https://picsum.photos/1000"
+        },
+        {
+          "title": "Quick Title3",
+          "image": "https://picsum.photos/1000"
+        }
+      ]
+    }
+  ]
 }
