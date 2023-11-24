@@ -2,14 +2,14 @@
   "contents": [
     {
       "widgetType": 0,
-      "content": {
+      "quickCardContent": {
         "title": "Content Title",
         "image": "https://picsum.photos/1000"
       }
     },
     {
       "widgetType": 1,
-      "content": {
+      "loreCardContent": {
         "title": "Content Title",
         "image": "https://picsum.photos/1000",
         "lore": "Content Message"
@@ -17,7 +17,7 @@
     },
     {
       "widgetType": 2,
-      "content": [
+      "scrollCardGridContents": [
         {
           "title": "Quick Title",
           "image": "https://picsum.photos/1000"
